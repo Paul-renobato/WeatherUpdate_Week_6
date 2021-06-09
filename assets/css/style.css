@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin-top: 1%;
+    padding-left: 1%;
+    width: 20%;
+}
+.container, .chosenCity {
+    display: inline-block;
+}
+.block {
+    padding-bottom: 30px;
+}
+#searchButton {
+    background-color: #2f3438;
+    color: white;
+}
+input {
+    height: 30px;
+    width: 90%;
+    border-radius: 4px;
+}
+
+.but {
+    height: 30px;
+    width: 90%;
+    border-radius: 4px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    padding-top: 2px;
+    background-color: rgb(94, 94, 145);
+
+}
+.chosenCity {
+    float: right;
+    background-color: #cee3f7;
+    border: 2px solid black;
+    width: 70%;
+    height: 40%;
+    margin-top: 1.2%;
+    margin-right: 2%;
+}
+
+.forecast {
+    margin-top: 15.5%;
+    width: 78%;
+    margin-left: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.day1 {
+    display: flex;
+    width: 20%;
+    align-content: center;
+}
+
+.day2 {
+    display: flex;
+    width: 20%;
+    align-content: center;
+}
+
+.day3 {
+    display: flex;
+    width: 20%;
+    align-content: center;
+}
+
+.day4 {
+    display: flex;
+    width: 20%;
+    align-content: center;
+}
+
+.day5 {
+    display: flex;
+    width: 20%;
+    align-content: center;
+}
+
+.inline {
+    width: 78%;
+    margin-left: 20%;
+    height: 250px;
+}
+
+.inline, .day1, .day2, .day3, .day4, .day5 {
+    display: flex;
+    border: 2px solid gray;
+}

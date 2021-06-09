@@ -4,18 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
-    <nav class="navbar">
         <div class="title">Weather Dashboard</div>
-    </nav>
+
       <div class="container">
 
         <h2 class="search"><strong>Search for a City: </strong></h2>
           <form>            
-          <input id="cityInput" type="text" placeholder="Enter city name">
+          <input id="cityInput" type="text" placeholder="Enter City Name Here!">
 
+            <button class="but" id="searchButton">Search</button>
+          </form>
+              <form id="history"></form>
+      </div>
+        <div class="chosenCity">
+            <h3 id="searchedCity"></h3>
+              <img id="currentImage" alt=""> 
+                <div class="block" id="temp">
+                    <p>Temp: </p>
+                </div>
+                <div class="block" id="wind">
+                    <p>Wind: </p>
+                </div>
+                <div class="block" id="humid">
+                    <p>Humidity: </p>
+                </div>
+                <div class="block" id="uv">
+                    <p>UV Index: </p>
+                </div>
+        </div>
+        <div class ="dayForecast col-sm-12 ">
+            <h3>5 Day Week Forecast:</h3>
+        </div>
+        <div class ="inline space">
+            <div class ="day1 rounded">Day 1 Weather
+                <p class="forcastTemp">Temp: </p>
+                <p class="forcastWind">Wind: </p>.
+                <p class="forcastHumid">Humidity:</p>
+            </div>
+            <div class ="day2 rounded">Day 2 Weather
+                <p class="forcastTemp">Temp:</p>
+                <p class="forcastWind">Wind: </p>
+                <p class="forcastHumid">Humidity:</p>
+            </div>
+            <div class ="day3 rounded">Day 3 Weather
+                <p class="forcastTemp">Temp:</p>
+                <p class="forcastWind">Wind: </p>
+                <p class="forcastHumid">Humidity:</p>
+            </div>
+            <div class ="day4 rounded">Day 4 Weather
+                <p class="forcastTemp">Temp:</p>
+                <p class="forcastWind">Wind: </p>
+                <p class="forcastHumid">Humidity:</p>
+            </div>
+            <div class ="day5 rounded">Day 5 Weather
+                <p class="forcastTemp">Temp:</p>
+                <p class="forcastWind">Wind: </p>
+                <p class="forcastHumid">Humidity:</p>
+            </div>
+        </div>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="./assets/js/script.js"></script>
 </body>
